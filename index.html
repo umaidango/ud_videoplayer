@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ud_video_player_demo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ud_video_player.css">
+    <script defer src="ud_video_player.js"></script>
+</head>
+
+<body>
+    <div class="ud_video_player_container">
+        <video class="ud_video_player" src="https://umaii.f5.si/meax/user_uploads/67f27836de2052.85236301.mp4" ondblclick="toggleFullScreen(this)">
+            <font style="color: #FFFFFF;">Your browser does not support the video tag.</font>
+        </video>
+        <div class="ud_video_player_controllers">
+            <button class="skip_prev_b" onclick="skipPrev(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M220-240v-480h60v480h-60Zm520 0L394-480l346-240v480Zm-60-240Zm0 125v-250L499-480l181 125Z"/></svg>
+            </button>
+
+            <button class="play_pause_b" onclick="playPause(this)">
+                <span>
+                    <svg class="play_icon" xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M320-203v-560l440 280-440 280Zm60-280Zm0 171 269-171-269-171v342Z"/></svg>
+                </span>
+            </button>
+            <button class="skip_next_b" onclick="skipNext(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M680-240v-480h60v480h-60Zm-460 0v-480l346 240-346 240Zm60-240Zm0 125 181-125-181-125v250Z"/></svg>
+            </button>
+            <span class="video_timee"></span>
+            <button class="speed_set_b" onclick="speedPlus(this)">
+                <span class="speed_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M242-280v-340h-82v-60h142v400h-60Zm195 0 127-213-113-187h70l79 130 75-130h69L636-493l124 213h-69l-91-156-93 156h-70Z"/></svg>
+                </span>
+            </button>
+        </div>
+
+        <span class="video_value">
+            <span class="video_value_time"></span>
+            <span class="video_value_maru"></span>
+        </span>
+    </div>
+
+    
+    </body>
+
+
+</html>

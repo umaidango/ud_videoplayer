@@ -1,0 +1,61 @@
+.ud_video_player_container {
+    width: 75%;
+    max-width: 500px;
+    margin-bottom: 20px; /* Add some space between players */
+}
+.ud_video_player {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.ud_video_player_controllers {
+    position: relative;
+    top: -74px;
+    left: 10px;
+    width: 98%;
+    display: flex;
+}
+
+.ud_video_player_controllers button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.video_timee {
+    margin-top: 12px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.video_value {
+    height: 5px;
+    background: #a8a8a8c7;
+    border-radius: 999px;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    display: flex;
+    top: -78px;
+    cursor: pointer;
+}
+
+.video_value_time {
+    height: 5px;
+    background: #55ff45c7;
+    border-radius: 999px;
+}
+
+.video_value_maru {
+    height: 5px;
+    width: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    background: #55ff45c7;
+    position: relative;
+    top: -5px;
+    left: -1px;
+}
